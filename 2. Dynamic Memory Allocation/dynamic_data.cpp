@@ -11,5 +11,9 @@ int main()
 
     // so we need to sdo dereferencing
     cout << *a << endl;
+
+    float *b = new float;
+    *b = 2.56;
+    cout << *b << endl;
     return 0;
 }
