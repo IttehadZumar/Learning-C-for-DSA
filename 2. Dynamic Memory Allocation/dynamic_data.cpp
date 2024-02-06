@@ -9,7 +9,7 @@ int main()
     // will return the address of heap
     cout << a << endl; 
 
-    // so we need to sdo dereferencing
+    // so we need to do dereferencing
     cout << *a << endl;
 
     float *b = new float;
